@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14897caa12.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id = "header">
+    <div class="container">
+        <nav>
+            <p class="name1" ><b>Rinkal Vekariya</b></p>   
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>    
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>     
+        </nav>
+       
+        <div class="header-text-occupation">
+            <p class="title">Android Developer</p>
+            <p>Hi, I'm <span>Rinkal</span> from Canada</p>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <p>Curiosity-driven, innovative, and creative Android Developer with over 4 years of experience in 
+                    developing Android applications. Certified Scrum Master and certified ATC (Advanced Android 
+                    Training Consultant). Strong knowledge of Android UI designing and testing along with data 
+                    collecting and analyzing. Able to solve complex application problems through critical and logical 
+                    thinking. Experienced in managing multiple projects effectively and meeting multiple daily 
+                    deadlines. Expertise in creating a responsive design for different sizes of mobile devices. 
+                    Dedicated to continuously developing, implementing, and adopting new technologies to 
+                    maximize development efficiency and produce innovative applications.</p>
+            </div>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Development</span><br>Web App Developement</li>
+                    <li><span>App Development</span><br>Building Android apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>June,2023 - Oct,2023</span><br>TheApplabb</li>
+                    <li><span>March,2022 - May,2023</span><br>Freelance</li>
+                    <li><span>Oct,2020 - Nov,2021</span><br>Viprak Web Solution</li>
+                    <li><span>Aug,2029 - May,2020</span><br>SilverFox Studio</li>
+                    <li><span>June,2017 - May,2019</span><br>Cloudus Technologies</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Aug,2022 - Jan,2023</span><br>Seneca College, Canada</li>
+                    <li><span>July,2013 - May,2017</span><br>CGPIT, India</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h2>Android App Development</h2>
+                <p>App Development using java & Kotlin | Complete Responsive App Design</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design & Development</h2>
+                <p>Website Design Using HTML CSS JS | Complete Responsive Website Design</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Flutter App Development</h2>
+                <p>Hybrid App Development using Flutter | Complete Responsive App Design</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>MExpense</h3>
+                    <p>Money management has never been easier! With the mExpense app, you can track all your cash flows, whether it is your savings you are worried about, or your expenses. Whether you want to develop a monthly budget planner or you simply want to monitor the way you are spending to check if you are living out of your means. It helps you to deal with all your finance related hassles in a simple and intuitive way.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.viprak.mexpense"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Foto Funia - Photo editor app</h3>
+                    <p>Foto funia is a great photo editor app that lets you beautify your photos with many different frames, filters, effects, emojis, bubbles or stickers. It is a photo editing app that allows users to easily add style and flair to their photos in just a few minutes. </p>
+                    <a href="https://play.google.com/store/apps/details?id=com.viprak.fotocollage"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work4.png">
+                <div class="layer">
+                    <h3>Gujarat's Gaushala & Panjarapo</h3>
+                    <p>Gaushalas or Goshalas are protective shelters for cows in India. Goshala, a Sanskrit word "Go" means cow and "Shala" means a shelter place: Go + Shala = shelter for cows, means the abode or sanctuary for cows.The Panjarapoles most earnestly request and expect generous donations and help from philanthropic persons, organisations and institutes to support its aims to render services and shelter to unfortunate animals.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.viprak.gujaratgaushaladonate"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work5.png">
+                <div class="layer">
+                    <h3>Foto Collage</h3>
+                    <p>photo collage maker lets you take control of the layout and style of your photos. You can choose to have your photos arranged in a traditional photo collage layout, or use our creative photo collage maker to create a unique and creative piece.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.viprak.fotocollageapp"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See More</a> -->
+
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rinksjodhani@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1 647-978 (0496)</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rinkal-vekariya-7a8652190/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/rinkaljodhani"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my_cv.pdf" download class="btn btn2">Downlaod CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- AKfycbzeVl2gLPx1WJAqumbelRPlZDA0f8cmPccnMQvPmqI4dHEvdzXehmD5N7KHOwsZjkcG -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzeVl2gLPx1WJAqumbelRPlZDA0f8cmPccnMQvPmqI4dHEvdzXehmD5N7KHOwsZjkcG/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
